@@ -74,7 +74,7 @@ def main():
                     nome = input("Nome do usuário: ")
                     cpf = input("CPF do usuário: ")
                     senha = input("Senha do usuário: ")
-                    tipo = input("Tipo do usuário: ")
+                    tipo = input("Tipo do usuário: (0 = FUNCIONARIO / 1 = USUÁRIO) ")
                     novo_usuario = Usuario(id, nome, cpf, senha, tipo)
                     sistema.adicionar_usuario(novo_usuario)
                     print("Usuário criado com sucesso!")
